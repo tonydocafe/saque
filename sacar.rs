@@ -18,6 +18,22 @@ fn notas(cedulas: &[i32], mut valor_saque: i32) -> i32 {
             println!("Cédulas de R$ 2: {}", cedulas_de_2);
             break;
         }
+
+        let novo_valor = valor_saque - 3;
+        
+        if novo_valor % 10 == 0 {
+            //  saques onde o valor for igual a 13 
+            let cedulas_de_5 = 1;
+            let cedulas_de_2 = 4;
+            
+            println!("Cédulas de R$ 5: {}", cedulas_de_5);
+            println!("Cédulas de R$ 2: {}", cedulas_de_2);
+            
+            if valor_saque != 13 {
+                valor_saque -= 3;  
+            }
+            
+        }
     }
     // caso valor de saque for igual ou terminado em 1 ou 3 
     if valor_saque == 1{
