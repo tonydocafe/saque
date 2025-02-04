@@ -2,6 +2,7 @@
 Explorarando um pouco a linguagem de programação Rust por curiosidade criei esse script chamado sacar.rs. 
 O objetivo deste script é simular o funcionamento de um caixa eletrônico, calculando a quantidade de cédulas necessárias para um determinado valor de saque solicitado pelo usuário.
 
+
 ### biblioteca 
 - std:io
 
