@@ -8,6 +8,8 @@ O objetivo deste script é simular o funcionamento de um caixa eletrônico, calc
 
 ## funções 
 
+
+
 - notas
 
 Esta função recebe um vetor de cédulas (cedulas) e o valor a ser sacado (valor_saque).
