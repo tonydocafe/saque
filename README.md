@@ -29,9 +29,6 @@ Chama a função notas com o valor solicitado pelo usuário.
 
 ### execução
 
-
-
-
 rustc sacar.rs
 
 
