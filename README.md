@@ -1,5 +1,8 @@
 # Caixa Eletrônico MVC em Rust
 
+
+
+
 Um programa de simulação de saque de caixa eletrônico que separa claramente as responsabilidades usando o padrão MVC (Model-View-Controller).
 
 ## Funcionalidades
