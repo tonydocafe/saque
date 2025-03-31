@@ -3,6 +3,7 @@ pub fn display_prompt() {
     println!("( apenas notas! )");
 }
 
+
 pub fn display_bills(bills: &[(i32, i32)]) {
     for (cedula, quantidade) in bills {
         println!("Cédulas de R$ {}: {}", cedula, quantidade);
